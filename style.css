@@ -10,11 +10,12 @@
 body{
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(pai\ benedito\ de\ angola.jpg);
+    background: url(pai\ benedito\ de\ angola.jpg) no-repeat top;
     background-color: rgb(32, 32, 32);
     color: white;
-    background-size: auto;
-    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  
 }
 
 h1{
